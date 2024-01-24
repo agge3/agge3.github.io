@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width"/>
@@ -8,27 +8,49 @@
     <link rel="stylesheet" type="text/css" href="/agge.css"/>
     <link rel="top" href="/"/>
     <title>agge</title>
+<style type="text/css">
+<!--
+.head { color: #FFF; background: #03A6A6; font-weight: bold; padding = 0.5em;
+    clear: both; }
+.head code { font-size: 14pt; }
+.year {font-size: smaller; }
+h1 { text-align: center; }
+h1 code { font-size: 14pt; }
+th, td { vertical-align: top; padding: 6px; }
+th { text-align: right; padding-right: 1em; font-weight: normal; }
+.redact { color: #FFF; background: #FFF; border: 1px solid #000;
+    line-height: 1.4em; }
+body { position: relative; }
+.permalink { opacity: 1.0; position: relative; left: 0; }
+.permalink:hover { opacity: 0.5; }
+<!-- for mobile -->
+@media screen and (max-width: 480px) { .permalink { display: none; } }
+-->
+</style>
 </head>
 
 <body>
 
 <table>
 <body class="agge">
-<h1><code>agge's Projects</code></h1>
-    <div style="text-align: left; margin: 0 0 0 0;">
+<h1><code>agge-projects.html</code></h1>
+    <!-- margin: top, left, bottom, right -->
+    <div style="text-align: left; margin: 0 5em 1em 5em;">
         Welcome to agge's projects! Here you'll find my projects.
-        You're admired for making it here. Proceed carefully.
+        You're admired for making it here. Proceed with care.
     </div>
 
-<tr><td class="head" colspan="2">
-<b><code>the list</code></b></td></tr>
+<tr><td colspan=2 class="head">
+        <b><code>struct THE_LIST {</code></b></td></tr>
 
 <tr><th><b>
-<a href="https://www.github.com/agge3/untitled-game" class="permalink">
+    <a href="https://www.github.com/agge3/untitled-game" class="permalink"
+        name="untitled-game">
     untitled game</a></b><br>
 <i class="year">2024</i></th><td>
     An untitled game using SFML. Follows
-    <a href="https://www.packtpub.com/product/sfml-game-development/9781849696845">
+    <a href="https://www.packtpub.com/product/sfml-game-development/9781849696845"
+        class="permalink">
     SFML Game Development</a>.
     Instead of making a vertically scrolling airplane shooter though, I've made
     a top-down open world RPG. Project scope! I'm sure you will find the lands
@@ -37,11 +59,12 @@
 </td></tr>
 
 <tr><th><b>
-<a href="https://www.github.com/agge3/breakout" class="permalink">
+<a href="https://www.github.com/agge3/breakout" class="permalink" name="breakout">
     breakout</a></b><br>
 <i class="year">2024</i></th><td>
     An SFML clone of the retro game, Breakout. Followed tutorial
-    <a href="https://www.youtube.com/watch?v=TC9zhufV_Z8">
+    <a href="https://www.youtube.com/watch?v=TC9zhufV_Z8"
+        class="permalink">
     CppCon2014: Vittorio Romeo "Quick Game Development with C++11/C++14</a>.
     Nice looking little game, I enjoyed making it and have learned a lot since
     then! Great tutorial if you're interested! I'd like to expand on it with
@@ -49,7 +72,7 @@
 </td></tr>
 
 <tr><th><b>
-<a href="https://www.github.com/agge3/lockscreen" class="permalink">
+<a href="https://www.github.com/agge3/lockscreen" class="permalink" name="breakout">
     lockscreen</a></b><br>
 <i class="year">2024</i></th><td>
     <b>Work in progress.</b> A simple lock screen for Wayland that listens for
@@ -59,6 +82,9 @@
 </td></tr>
 
 </b></th></tr>
+
+<tr><td class="head" colspan="2">
+        <b><code>};</code></b></td></tr>
 
 <!-- This webpage! All handcoded in plain html using vi. :) -->
 
