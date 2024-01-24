@@ -35,7 +35,7 @@ body { position: relative; }
 <body class="agge">
 <h1><code>agge-projects.html</code></h1>
     <!-- margin: top, left, bottom, right -->
-    <div style="text-align: left; margin: 0 5em 1em 5em;">
+    <div style="text-align: left; margin: 0 5em 0em 5em;">
         Welcome to agge's projects! Here you'll find my projects.
         You're admired for making it here. Proceed with care.
     </div>
@@ -44,9 +44,9 @@ body { position: relative; }
         <b><code>struct THE_LIST {</code></b></td></tr>
 
 <tr><th><b>
-    <a href="https://www.github.com/agge3/untitled-game" class="permalink"
-        name="untitled-game">
-    untitled game</a></b><br>
+<a href="https://www.github.com/agge3/untitled-game" class="permalink"
+    name="untitled-game">
+<code>untitled game</code></a></b><br>
 <i class="year">2024</i></th><td>
     An untitled game using SFML. Follows
     <a href="https://www.packtpub.com/product/sfml-game-development/9781849696845"
@@ -60,7 +60,7 @@ body { position: relative; }
 
 <tr><th><b>
 <a href="https://www.github.com/agge3/breakout" class="permalink" name="breakout">
-    breakout</a></b><br>
+<code>breakout</code></a></b><br>
 <i class="year">2024</i></th><td>
     An SFML clone of the retro game, Breakout. Followed tutorial
     <a href="https://www.youtube.com/watch?v=TC9zhufV_Z8"
@@ -73,20 +73,41 @@ body { position: relative; }
 
 <tr><th><b>
 <a href="https://www.github.com/agge3/lockscreen" class="permalink" name="breakout">
-    lockscreen</a></b><br>
+<code>lockscreen</code></a></b><br>
 <i class="year">2024</i></th><td>
-    <b>Work in progress.</b> A simple lock screen for Wayland that listens for
-    the D-Bus "Lock" message from org.freedesktop.login1, using the libdbus
-    low-level C API. <i>lockscreen</i> then uses the Wayland protocol to
-    interact with the Wayland display and lock the session.
+    <b>Work in progress.</b> A simple lock screen for Wayland, elogind, and
+    Hyprland that uses the D-Bus low-level C API to listen for the "Lock"
+    message from org.freedesktop.login1 (e.g., <code>loginctl</code>).
+    <code>lockscreen</code> then uses the Wayland protocol to interact with the
+    Wayland display and lock the session.
 </td></tr>
 
 </b></th></tr>
 
+<tr><td colspan=2 class="head">
+        <b><code>};</code></b></td></tr>
+
+<tr><td colspan=2 class="head" style="color: #FFF; background: #FFF;">
+        <br><!-- there's a better way to do this... --></td></tr>
+
+<tr><td colspan=2 class="head">
+        <b><code>enum CONTACT {</code></b></td></tr>
+
+<!-- contact info - watchu gonna put? -->
+<tr><th><b>
+<a href="https://www.github.com/agge3" class="permalink" name="github">
+github</a></b></th><td>
+    Just message me on github. It's simple. Click the
+    <a href="https://www.github.com/agge3" class="permalink" name="github">
+    link</a>. Or a third time,
+    <a href="https://www.github.com/agge3" class="permalink" name="github">
+        copy and paste</a>.
+</td></tr>
+
 <tr><td class="head" colspan="2">
         <b><code>};</code></b></td></tr>
 
-<!-- This webpage! All handcoded in plain html using vi. :) -->
+<!-- SECRET PROJECT: This webpage! All handcoded in plain html using vi. :) -->
 
 </body>
 </table>
