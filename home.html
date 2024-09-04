@@ -36,26 +36,81 @@ body { position: relative; }
 <h1><code>agge-projects.html</code></h1>
     <!-- margin: top, left, bottom, right -->
     <div style="text-align: left; margin: 0 5em 1em 5em;">
-        Welcome to agge's projects! Here you'll find my projects.
-        You're admired for making it here. Proceed with care.
+        Agge's projects. Some are notable, many are experiments.
     </div>
 
 <tr><td colspan=2 class="head">
-        <b><code>struct THE_LIST {</code></b></td></tr>
+        <b><code>Projects</code></b></td></tr>
+
+<tr><th><b>
+<a href="https://wiki.freebsd.org/SummerOfCode2024Projects/RefactorSyscallCreationScript" class="permalink"
+    name="refactor-syscall-creation-script">
+<code>refactor-syscall-creation-script</code></a></b><br>
+<i class="year">2024</i></th><td>
+	This project has a wiki page, and it's so much more detailed than I'll be 
+	going into here. Please refer to it. The short description is that 
+	I refactored <code>/src/sys/tools/makesyscalls.lua</code> into an OOP 
+	library. Achieving the following outcomes: the new library is easier for new 
+	contributors to understand, it provides a solid foundation for future system 
+	call creation scripts, and it's modularized to allow dynamic generation of 
+	FreeBSD system files. The other outcomes are that FreeBSD has a great 
+	community, so be a part of it!
+</td></tr>
+
+<tr><th><b>
+<a href="https://www.github.com/agge3/agge-plugins" class="permalink"
+    name="agge-plugins">
+<code>agge-plugins</code></a></b><br>
+<i class="year">2024</i></th><td>
+	Java extension library to automate the popular MMORPG and open source 
+	client, Old School RuneScape and RuneLite. Fork of some pre-existing work in
+	the area, but designed to do what I want to accomplish and not what the
+	existing work wants to accomplish. This involves expanding the API to do 
+	more robust things and utilizing design patterns to accomplish more with 
+	less. Also, to have something that fits my needs. So it's very much for me, 
+	but it's a notable amount of work and design.
+</td></tr>
+
+<tr><th><b>
+<a href="https://www.github.com/agge3/berry-picking-simulator" class="permalink"
+    name="berry-picking-simulator">
+<code>berry-picking-simulator</code></a></b><br>
+<i class="year">2024</i></th><td>
+	A cute little game to crash course on GNU Guile and also implement a game
+	with a recursive game loop. Everything's done recursively where it could be,
+	because that's the fun in this project. Lisp is great!
+</td></tr>
+
+<tr><th><b>
+<a href="https://www.github.com/agge3/occ-accessibility-tour" class="permalink"
+    name="occ-accessibility-tour">
+<code>occ-accessibility-tour</code></a></b><br>
+<i class="year">2024</i></th><td>
+	Fork of untitled game. Re-uses all of the engine code, but produces an 
+	actually presentable and playable game. The game is an interactive tour of
+	Orange Coast College, with great creative liberty taken on the presentation
+	of the college. The most notable thing, however, is that it can played 
+	exclusively by voice input! The API for the voice input is Mozilla's 
+	DeepSpeech C library, packaged and tuned in a way that makes sense for video 
+	game controls. It's designed to be reusable, to support more diverse and
+	accessible ways of interacting with video games.
+</td></tr>
 
 <tr><th><b>
 <a href="https://www.github.com/agge3/untitled-game" class="permalink"
     name="untitled-game">
-<code>untitled game</code></a></b><br>
+<code>untitled-game</code></a></b><br>
 <i class="year">2024</i></th><td>
     An untitled game using SFML. Follows
     <a href="https://www.packtpub.com/product/sfml-game-development/9781849696845"
         class="permalink">
     SFML Game Development</a>.
     Instead of making a vertically scrolling airplane shooter though, I've made
-    a top-down open world RPG. Project scope! I'm sure you will find the lands
-    to be vast and interesting. Only supported on Linux. Yes, there was an
-    experiment torward cross-dev.
+    a top-down open world RPG. Greatly expanding the currently empty, but vast,
+	project scope. Only supported on Linux. Windows target from Linux was a 
+	thing at one point, with that still being included in the build system. 
+	That's pending a better workflow, and my desire (which I don't have much) to
+	do it.
 </td></tr>
 
 <tr><th><b>
@@ -84,30 +139,22 @@ body { position: relative; }
 
 </b></th></tr>
 
-<tr><td colspan=2 class="head">
-        <b><code>};</code></b></td></tr>
-
 <tr><td colspan=2 class="head" style="color: #FFF; background: #FFF;">
         <br><!-- there's a better way to do this... --></td></tr>
 
 <tr><td colspan=2 class="head">
-        <b><code>enum CONTACT {</code></b></td></tr>
+        <b><code>Contact</code></b></td></tr>
 
-<!-- contact info - watchu gonna put? -->
+<!-- contact info -->
 <tr><th><b>
 <a href="https://www.github.com/agge3" class="permalink" name="github">
 github</a></b></th><td>
-    Just message me on github. It's simple. Click the
+    Find me on github!
     <a href="https://www.github.com/agge3" class="permalink" name="github">
-    link</a>. Or a third time,
-    <a href="https://www.github.com/agge3" class="permalink" name="github">
-        copy and paste</a>.
+    me</a>
 </td></tr>
 
-<tr><td class="head" colspan="2">
-        <b><code>};</code></b></td></tr>
-
-<!-- SECRET PROJECT: This webpage! All handcoded in plain html using vi. :) -->
+<!-- SECRET PROJECT: This webpage! You found my editor! -->
 
 </body>
 </table>
